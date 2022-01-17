@@ -1,0 +1,16 @@
+GET http://localhost:3000/mahasiswa
+###
+POST http://localhost:3000/mahasiswa
+Content-Type: application/json
+
+{
+    "nama": "Michael",
+    "nim": "1234567"
+}
+bod
+###
+POST http://localhost:3000/mahasiswa/123
+###
+PUT http://localhost:3000/mahasiswa/
+###
+DELETE  http://localhost:3000/mahasiswa/
